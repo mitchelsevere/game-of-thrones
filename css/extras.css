@@ -1,0 +1,107 @@
+/*Youtube Video margin*/
+iframe {
+    margin: 40px 0 5px;
+}
+
+a {
+    margin-top: 400px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    margin-right: -4px;
+}
+
+#openModal h2 {
+    text-align: center;
+    color: white;
+    font-size: 1.1em;
+}
+
+h2:first-of-type {
+    color: #000;
+}
+
+.section:nth-child(2) {
+    margin: -50px 0 100px;
+}
+
+/*Banner Image*/
+.banner {
+    background: url('../images/bts.jpg') no-repeat scroll 20% 30%;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.banner h1 {
+    font-size: 2em;
+    text-shadow: 1px 3px 5px #333, 0 0 25px #333, 0 0 5px #999;
+}
+
+/*Modal Window*/
+.modalDialog {
+	position: fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	-webkit-transition: opacity 400ms ease-in;
+	-moz-transition: opacity 400ms ease-in;
+	transition: opacity 400ms ease-in;
+	pointer-events: none;
+}
+
+.modalDialog:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+.modalDialog > div {
+	width: 600px;
+	position: relative;
+	margin: 10% auto;
+	padding: 5px 20px 13px 20px;
+	border-radius: 10px;
+}
+
+/*X on modal window*/
+.close {
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(255,255,255,0.6);
+}
+
+.section {
+    text-align: center;
+}
+
+.section h2 {
+    font-size: 3.5em;
+    text-transform: uppercase;
+    letter-spacing: 3pt;
+    margin-top: 100px;
+}
+
+.section h3 {
+    font-family: 'Open Sans', serif;
+    line-height: 18pt;
+    font-size: 0.9em;
+}
+
+/*Youtube video to display next to each other*/
+.video {
+    display: inline-block;
+    width: 40%;
+    border: 1px solid #ccc;
+    margin: 2px 0;
+}
+
+/*Make modal window pictures scale when opened*/
+.picture {
+    width: 100%;
+    height: 100%;
+}
+

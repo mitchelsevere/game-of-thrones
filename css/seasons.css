@@ -1,0 +1,48 @@
+/*Season Backgrounds*/
+.season1 {
+    background: url('../images/season1.jpg') no-repeat fixed center;
+    background-position: 0 300px;
+}
+
+.season2 {
+    background: url('../images/season2.png') no-repeat fixed center;
+}
+
+.season3 {
+    background: url('../images/season3.jpg') no-repeat fixed center;
+}
+
+.season4 {
+    background: url('../images/season4.jpg') no-repeat fixed center;
+}
+
+.season5 {
+    background: url('../images/season5.jpg') no-repeat fixed center;
+}
+
+.season6 {
+    background: url('../images/season6.jpg') no-repeat fixed center;
+}
+
+a {
+    text-decoration: none;        
+}
+
+/*Banner Image*/
+.banner {
+    background: url('../images/kingslanding.jpg') no-repeat scroll 20% 30%;
+    background-size: cover;
+    opacity: 0.7;
+}
+
+.banner h1 {
+    font-size: 1.5em;
+    text-shadow: 1px 3px 5px #333, 0 0 25px #333, 0 0 5px #999;
+}
+
+/*Hover effect styling*/
+.season:hover {
+    opacity: 0.8;
+    font-size: 2em;
+    text-shadow: 1px 3px 5px #333, 0 0 25px #ddd, 0 0 5px #fff;
+}
